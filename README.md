@@ -14,5 +14,5 @@ Pass in existing object as paramater and it returns  the new serializable object
 For more info on how to use the library, please check the Client.Program file
 
 #Restrictions
-As of now it works for only those objects which have a default constructir and the class has to be defined as public
+As of now it works for only those objects which have a default constructor and the class has to be defined as public
 
