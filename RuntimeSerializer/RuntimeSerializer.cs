@@ -153,7 +153,6 @@ namespace RuntimeSerializer
             catch (DefaultCtorAbsentException)
             {
                 Trace.WriteLine("The specified object does not have a parameterless ctor. going to rethrow the exeption");
-                throw;
             }
             catch (Exception e)
             {
