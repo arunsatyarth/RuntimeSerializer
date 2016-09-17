@@ -157,9 +157,8 @@ namespace RuntimeSerializer
             catch (Exception e)
             {
                 Trace.WriteLine(e.Message);
-                throw;
             }
-
+            return null;
         }
         private static void ShallowCopy(Type t, object source, object dest)
         {
